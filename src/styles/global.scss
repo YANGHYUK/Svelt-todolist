@@ -1,0 +1,22 @@
+// src/styles/global.scss
+
+@import "./styles/modules.scss";
+@import "./styles/variables.scss";
+
+:global(html) {
+  font-size: 62.5%;
+}
+
+:global(body) {
+  background: $body-background-color;
+  font-size: 1.4rem;
+  color: $body-text-color;
+}
+
+:global(div) {
+  box-sizing: border-box;
+}
+
+:global(li) {
+  list-style: none;
+}
